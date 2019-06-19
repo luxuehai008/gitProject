@@ -14,7 +14,6 @@ esc 退出 insert模式
 :wq 保存退出
 :q! 退出不保存
 
-
 #配置Git 不要早文件夹里嵌套初始化Git
 git init -y 初始化Git
 git --config --list 显示配置列表
@@ -35,6 +34,22 @@ git commit -m"message" 从暂存区提交到历史记录区
 git commit -a -m"message"  从工作区直接提交到历史记录区
 
 #比较
+git diff  工作区和暂存区比较
+git diff --cached 暂存区和历史区比较
+git diff master 工作区和历史区比较
+
+#撤销
+git checkout 文件|名 从暂存区把工作区的修改覆盖
+git checkout .
+
+git reset HEAD 文件名 将暂存区的内容向上回滚一次
+git reset HEAD .
+
+history > 1.txt 将历史记录写到1.txt中
+
+git log 查看历史记录
+
+
 
 
 

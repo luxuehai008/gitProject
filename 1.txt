@@ -1,3 +1,73 @@
-hello world
-node git react vue
-hello world
+    1  git
+    2  pwd
+    3  ls
+    4  clear
+    5  ls
+    6  cd desktop
+    7  ls
+    8  cd gitProject
+    9  ls
+   10  touch readme.md
+   11  ls
+   12  git init
+   13  ls
+   14  ls -a
+   15  clear
+   16  git --config --list
+   17  git --config
+   18  cd ..
+   19  git --config --list
+   20  clear
+   21  pwd
+   22  cd gitProject
+   23  ls
+   24  mkdir home.js
+   25  rm home.js
+   26  rm -rf home.js
+   27  cd d:
+   28  clear
+   29  cd ..
+   30  ls
+   31  cd pug
+   32  ls
+   33  ls -a
+   34  clear
+   35  ls -al
+   36  cd gitProject
+   37  ls
+   38  cd desktop
+   39  cd gitProject
+   40  ls
+   41  touch 1.txt
+   42  echo >> hello word
+   43  rm hello
+   44  echo 1.txt >> hello
+   45  vi 1.txt
+   46  git status
+   47  git branch
+   48  ls
+   49  cd desktop
+   50  ls
+   51  cd gitProject
+   52  ls
+   53  git status
+   54  git add .
+   55  git status
+   56  ls
+   57  ls -a
+   58  cat .git
+   59  git status
+   60  git add .
+   61  git status
+   62  git commit -m "init"
+   63  git diff
+   64  cd desktop
+   65  cd gitProject
+   66  ls
+   67  git status
+   68  git add .
+   69  git status
+   70* cd desktop
+   71* ls
+   72* cd tcp
+   73  ls
