@@ -50,6 +50,8 @@ history > 1.txt 将历史记录写到1.txt中
 
 git log 查看历史记录
 git reflog 查看所有的历史，包括移动的，删除的
+git log --graph  
+
 
 git reset --hard db2cf3c7d9604bf5c09a10d9 版本号 从历史区回滚
 git reset --hard HEAD^ 将历史记录区向上回滚一次
@@ -68,5 +70,6 @@ git stash pop
 git merge dev 主分支合并dev分支
 
 
-
-
+#添加仓库
+git remote add origin https://github.com/luxuehai008/gitProject.git //origin 是别名
+git push -u origin master // -u origin master 以后就不用写了 直接git push
