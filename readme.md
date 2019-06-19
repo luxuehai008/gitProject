@@ -1,13 +1,23 @@
 #linux命令
+
 pwd 查看所在路径
+
 rm 文件名|夹 删除(只能删除一个文件)
+
 rm -rf 文件名|夹  强制删除
+
 mkdir 文件夹名
+
 ls 展现所有列表
+
 ls -a 显示所有隐藏文件
+
 ls -al 显示文件权限
+
 touch 文件名 创建文件 index.js 都是空文件
+
 cat index.js 控制台打印index.js内容
+
 
 vi 打开编辑界面
 i 切换到 insert 模式
