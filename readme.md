@@ -7,6 +7,7 @@ ls 展现所有列表
 ls -a 显示所有隐藏文件
 ls -al 显示文件权限
 touch 文件名 创建文件 index.js 都是空文件
+cat index.js 控制台打印index.js内容
 
 vi 打开编辑界面
 i 切换到 insert 模式
@@ -48,11 +49,22 @@ git reset HEAD .
 history > 1.txt 将历史记录写到1.txt中
 
 git log 查看历史记录
+git reflog 查看所有的历史，包括移动的，删除的
 
+git reset --hard db2cf3c7d9604bf5c09a10d9 版本号 从历史区回滚
+git reset --hard HEAD^ 将历史记录区向上回滚一次
 
+#分支合并
 
+git branch 查看分支
+git branch dev 创建Dev分支
+git checkout dev 切换到dev分支
+git checkout -b dev 创建Dev分支并且切换到Dev分支上
 
+git branch -D 分支名 删除Dev分支
 
+git stash  当文件有修改时，切换分支是不允许的，此命令可以将修改暂存起来
+git stash pop 
 
 
 
