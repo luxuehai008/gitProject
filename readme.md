@@ -65,6 +65,7 @@ git branch -D 分支名 删除Dev分支
 
 git stash  当文件有修改时，切换分支是不允许的，此命令可以将修改暂存起来
 git stash pop 
+git merge dev 主分
 
 
 
